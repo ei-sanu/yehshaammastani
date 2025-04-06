@@ -7,6 +7,7 @@
 <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+    <link href="https://fonts.googleapis.com/css2?family=Mrs+Saint+Delafield&display=swap" rel="stylesheet">
     </style>
     <link rel="icon" type="image/png" href="images/1.png">
 
@@ -25,7 +26,7 @@
         <header>
             <div class="logo">
                 <img src="images/1.png" alt="Tatva Logo" class="logo-img">
-                <span class="logo-text">Yeh Shaam Mastani  <span>2025</span></span>
+                <span class="logo-text">Yeh Shaam Mastani  <span></span></span>
             </div>
             <div class="hamburger" onclick="toggleMenu()">
                 <span></span>
@@ -55,6 +56,17 @@
                 ></spline-viewer>
             </div>
 
+            <div class="hero-content">
+                <h1>
+                    <span class="title-word">Yeh</span>&nbsp;&nbsp;
+                    <span class="title-word">Shaam</span>&nbsp;&nbsp;
+                    <span class="title-word">Mastani</span>&nbsp;&nbsp;
+                    <span class="title-word" style="color: #ffeb3b;">2025</span>
+                </h1>
+                <h2>Presented&nbsp;&nbsp; by&nbsp;&nbsp; Tatva</h2>
+                <p>Experience &nbsp;the &nbsp;magic, &nbsp;glamour, &nbsp;and&nbsp; energy &nbsp;of &nbsp;Bollywood&nbsp; in&nbsp; this&nbsp; three-day &nbsp;extravaganza!</p>
+            </div>
+
             <!-- Add this bubble container -->
             <div class="bubbles">
                 <div class="bubble"></div>
@@ -68,17 +80,6 @@
                 <div class="bubble"></div>
                 <div class="bubble"></div>
             </div>
-
-            <div class="hero-content">
-                <h1>Yeh Shaam Mastani 2025</h1>
-                <h2>Presented by Tatva</h2>
-                <p>Experience the magic, glamour and energy of Bollywood in this three-day extravaganza!</p>
-            </div>
-            <!-- <div class="floating-days">
-                <div class="day-indicator">Day 1</div>
-                <div class="day-indicator">Day 2</div>
-                <div class="day-indicator">Day 3</div>
-            </div> -->
         </section>
 
         <!-- 3D Spline Object
@@ -108,14 +109,35 @@
                     <p>The grand finale featuring spectacular performances, award ceremonies, star-studded events, and an unforgettable after-party that will leave you wanting more!</p>
                     <a href="#day3" class="day-btn">Explore Day 3</a>
                 </div>
+                <div class="day-card">
+                    <h3>Day 4: Celebrity Meet & Greet</h3>
+                    <p>An exclusive day with Bollywood celebrities, interactive sessions, photo opportunities, and special performances that will create memories to last a lifetime!</p>
+                    <a href="#day4" class="day-btn">Explore Day 4</a>
+                </div>
             </div>
         </section>
+
+        <div class="welcome-cartoon">
+            <div class="welcome-text">
+                <span>WELCOME</span>
+                <span>TO</span>
+                <span>THE</span>
+                <span>BEST</span>
+                <span>EVENT</span><br>
+                <span style="color: #FF6B6B;">OF</span>
+                <span style="color: #4ECDC4;">2025!</span>
+            </div>
+            <div class="welcome-text" style="font-size: 2rem; margin-top: 1rem;">
+                <span style="color: #FFE66D;">Get ready for an unforgettable</span><br>
+                <span style="color: #FF8C42;">Bollywood experience!</span>
+            </div>
+        </div>
 
         <!-- Day 1 Events -->
         <section class="day-events" id="day1">
             <h2 class="section-title">Day 1: Bollywood Beginnings</h2>
             <div class="events-container">
-                <div class="event-card">
+                <div class="event-card scroll-reveal">
                     <div class="event-img">
                         <img src="/api/placeholder/400/200" alt="Opening Ceremony">
                     </div>
@@ -131,7 +153,7 @@
                         <p>A spectacular inauguration of Bollywood Day with performances celebrating the evolution of Indian cinema.</p>
                     </div>
                 </div>
-                <div class="event-card">
+                <div class="event-card scroll-reveal">
                     <div class="event-img">
                         <img src="/api/placeholder/400/200" alt="Retro Dance Workshop">
                     </div>
@@ -147,7 +169,7 @@
                         <p>Learn the iconic dance moves from classic Bollywood films of the 50s, 60s, and 70s.</p>
                     </div>
                 </div>
-                <div class="event-card">
+                <div class="event-card scroll-reveal">
                     <div class="event-img">
                         <img src="/api/placeholder/400/200" alt="Vintage Movie Screening">
                     </div>
@@ -163,7 +185,7 @@
                         <p>Watch carefully selected scenes from golden era classics that shaped Indian cinema.</p>
                     </div>
                 </div>
-                <div class="event-card">
+                <div class="event-card scroll-reveal">
                     <div class="event-img">
                         <img src="/api/placeholder/400/200" alt="Melody Night">
                     </div>
@@ -186,7 +208,7 @@
         <section class="day-events" id="day2">
             <h2 class="section-title">Day 2: Blockbuster Bonanza</h2>
             <div class="events-container">
-                <div class="event-card">
+                <div class="event-card scroll-reveal">
                     <div class="event-img">
                         <img src="/api/placeholder/400/200" alt="Dance Competition">
                     </div>
@@ -202,7 +224,7 @@
                         <p>Show off your dance moves and compete with other talented performers for exciting prizes.</p>
                     </div>
                 </div>
-                <div class="event-card">
+                <div class="event-card scroll-reveal">
                     <div class="event-img">
                         <img src="/api/placeholder/400/200" alt="Fashion Show">
                     </div>
@@ -218,7 +240,7 @@
                         <p>A stunning showcase of fashion inspired by iconic Bollywood looks across the decades.</p>
                     </div>
                 </div>
-                <div class="event-card">
+                <div class="event-card scroll-reveal">
                     <div class="event-img">
                         <img src="/api/placeholder/400/200" alt="Lip Sync Battle">
                     </div>
@@ -234,7 +256,7 @@
                         <p>Channel your inner playback singer and perform to famous Bollywood songs.</p>
                     </div>
                 </div>
-                <div class="event-card">
+                <div class="event-card scroll-reveal">
                     <div class="event-img">
                         <img src="/api/placeholder/400/200" alt="Themed Party">
                     </div>
@@ -257,7 +279,7 @@
         <section class="day-events" id="day3">
             <h2 class="section-title">Day 3: Bollywood Extravaganza</h2>
             <div class="events-container">
-                <div class="event-card">
+                <div class="event-card scroll-reveal">
                     <div class="event-img">
                         <img src="/api/placeholder/400/200" alt="Acting Workshop">
                     </div>
@@ -273,7 +295,7 @@
                         <p>Learn the basics of method acting from industry professionals who understand Bollywood.</p>
                     </div>
                 </div>
-                <div class="event-card">
+                <div class="event-card scroll-reveal">
                     <div class="event-img">
                         <img src="/api/placeholder/400/200" alt="Talent Show">
                     </div>
@@ -289,7 +311,7 @@
                         <p>Display your unique talents with a Bollywood twist and win exciting prizes.</p>
                     </div>
                 </div>
-                <div class="event-card">
+                <div class="event-card scroll-reveal">
                     <div class="event-img">
                         <img src="/api/placeholder/400/200" alt="Award Ceremony">
                     </div>
@@ -305,7 +327,7 @@
                         <p>A glamorous award ceremony recognizing the best performances from the three-day event.</p>
                     </div>
                 </div>
-                <div class="event-card">
+                <div class="event-card scroll-reveal">
                     <div class="event-img">
                         <img src="/api/placeholder/400/200" alt="Closing Party">
                     </div>
@@ -324,35 +346,169 @@
             </div>
         </section>
 
+        <!-- Day 4 Events -->
+        <section class="day-events" id="day4">
+            <h2 class="section-title">Day 4: Celebrity Meet & Greet</h2>
+            <div class="events-container">
+                <div class="event-card scroll-reveal">
+                    <div class="event-img">
+                        <img src="/api/placeholder/400/200" alt="Celebrity Panel">
+                    </div>
+                    <div class="event-details">
+                        <h4>Celebrity Panel Discussion</h4>
+                        <div class="event-time">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <polyline points="12 6 12 12 16 14"></polyline>
+                            </svg>
+                            10:00 AM - 12:00 PM
+                        </div>
+                        <p>Engage in an interactive session with renowned Bollywood personalities sharing their journey and experiences.</p>
+                    </div>
+                </div>
+
+                <div class="event-card scroll-reveal">
+                    <div class="event-img">
+                        <img src="/api/placeholder/400/200" alt="Meet and Greet">
+                    </div>
+                    <div class="event-details">
+                        <h4>Meet & Greet Session</h4>
+                        <div class="event-time">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <polyline points="12 6 12 12 16 14"></polyline>
+                            </svg>
+                            1:00 PM - 3:00 PM
+                        </div>
+                        <p>Get up close and personal with your favorite Bollywood stars, take photos, and get autographs.</p>
+                    </div>
+                </div>
+
+                <div class="event-card scroll-reveal">
+                    <div class="event-img">
+                        <img src="/api/placeholder/400/200" alt="Celebrity Performance">
+                    </div>
+                    <div class="event-details">
+                        <h4>Celebrity Performance</h4>
+                        <div class="event-time">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <polyline points="12 6 12 12 16 14"></polyline>
+                            </svg>
+                            4:00 PM - 6:00 PM
+                        </div>
+                        <p>Witness exclusive performances by renowned Bollywood celebrities just for our event attendees.</p>
+                    </div>
+                </div>
+
+                <div class="event-card scroll-reveal">
+                    <div class="event-img">
+                        <img src="/api/placeholder/400/200" alt="Farewell Dinner">
+                    </div>
+                    <div class="event-details">
+                        <h4>Grand Farewell Dinner</h4>
+                        <div class="event-time">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <polyline points="12 6 12 12 16 14"></polyline>
+                            </svg>
+                            7:30 PM - 10:30 PM
+                        </div>
+                        <p>End the festival with an exclusive dinner alongside celebrities and fellow participants.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <!-- Sponsors Section -->
         <section class="sponsors-section">
             <h2 class="section-title">Our Sponsors</h2>
             <div class="sponsors-grid">
-                <!-- Placeholder for sponsor logos -->
+                <!-- First set of sponsors -->
                 <div class="sponsor-card">
                     <div class="sponsor-placeholder">
-                        <i class="fas fa-image"></i>
-                        <p>Sponsor Logo</p>
+                        <img src="path/to/sponsor-logo.png" alt="Sponsor Logo">
+                        <!-- If no image, use icon fallback -->
+                        <!-- <i class="fas fa-building"></i> -->
+                        <p>Sponsor Name</p>
                     </div>
                 </div>
                 <div class="sponsor-card">
                     <div class="sponsor-placeholder">
-                        <i class="fas fa-image"></i>
-                        <p>Sponsor Logo</p>
+                        <img src="path/to/sponsor-logo.png" alt="Sponsor Logo">
+                        <!-- If no image, use icon fallback -->
+                        <!-- <i class="fas fa-building"></i> -->
+                        <p>Sponsor Name</p>
                     </div>
                 </div>
                 <div class="sponsor-card">
                     <div class="sponsor-placeholder">
-                        <i class="fas fa-image"></i>
-                        <p>Sponsor Logo</p>
+                        <img src="path/to/sponsor-logo.png" alt="Sponsor Logo">
+                        <!-- If no image, use icon fallback -->
+                        <!-- <i class="fas fa-building"></i> -->
+                        <p>Sponsor Name</p>
                     </div>
                 </div>
                 <div class="sponsor-card">
                     <div class="sponsor-placeholder">
-                        <i class="fas fa-image"></i>
-                        <p>Sponsor Logo</p>
+                        <img src="path/to/sponsor-logo.png" alt="Sponsor Logo">
+                        <!-- If no image, use icon fallback -->
+                        <!-- <i class="fas fa-building"></i> -->
+                        <p>Sponsor Name</p>
                     </div>
                 </div>
+                <!-- Duplicate sponsors for seamless loop -->
+                <div class="sponsor-card">
+                    <div class="sponsor-placeholder">
+                        <img src="path/to/sponsor-logo.png" alt="Sponsor Logo">
+                        <!-- If no image, use icon fallback -->
+                        <!-- <i class="fas fa-building"></i> -->
+                        <p>Sponsor Name</p>
+                    </div>
+                </div>
+                <div class="sponsor-card">
+                    <div class="sponsor-placeholder">
+                        <img src="path/to/sponsor-logo.png" alt="Sponsor Logo">
+                        <!-- If no image, use icon fallback -->
+                        <!-- <i class="fas fa-building"></i> -->
+                        <p>Sponsor Name</p>
+                    </div>
+                </div>
+                <div class="sponsor-card">
+                    <div class="sponsor-placeholder">
+                        <img src="path/to/sponsor-logo.png" alt="Sponsor Logo">
+                        <!-- If no image, use icon fallback -->
+                        <!-- <i class="fas fa-building"></i> -->
+                        <p>Sponsor Name</p>
+                    </div>
+                </div>
+                <div class="sponsor-card">
+                    <div class="sponsor-placeholder">
+                        <img src="path/to/sponsor-logo.png" alt="Sponsor Logo">
+                        <!-- If no image, use icon fallback -->
+                        <!-- <i class="fas fa-building"></i> -->
+                        <p>Sponsor Name</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Add this section before the registration section -->
+        <section class="why-join-us">
+            <h2 class="section-title">Why Join Us?</h2>
+            <div class="why-join-container">
+                <p class="dream-text">
+                    Step into a world where Bollywood dreams come alive! Join us for an extraordinary three-day celebration that
+                    promises to transport you into the heart of Indian cinema. Experience the grandeur of live performances,
+                    the rhythm of classic melodies, and the magic of contemporary dance. Learn from industry professionals,
+                    showcase your talents, and immerse yourself in the rich tapestry of Bollywood culture. From vintage movie
+                    screenings to modern dance battles, from fashion shows to award ceremonies, every moment is crafted to create
+                    unforgettable memories. Network with fellow enthusiasts, discover hidden talents, and be part of a community
+                    that shares your passion for Bollywood. Whether you're a dancer, singer, actor, or simply a lover of Indian
+                    cinema, this event is your gateway to experiencing the true essence of Bollywood magic. Don't miss this
+                    chance to be part of the most anticipated cultural event of 2025, where every moment is a celebration of
+                    creativity, expression, and pure entertainment!
+                </p>
             </div>
         </section>
 
@@ -360,7 +516,7 @@
         <section class="day-events" id="registration">
             <h2 class="section-title">Register Now</h2>
             <div class="events-container" style="max-width: 800px; margin: 0 auto;">
-                <div class="event-card" style="width: 100%;">
+                <div class="event-card scroll-reveal" style="width: 100%;">
                     <div class="event-details" style="padding: 40px;">
                         <h4 style="text-align: center; font-size: 2rem; margin-bottom: 30px;">Join Us For Bollywood Day 2025!
                         </h4>
@@ -397,6 +553,7 @@
                         <li><a href="#day1">Day 1: Bollywood Beginnings</a></li>
                         <li><a href="#day2">Day 2: Blockbuster Bonanza</a></li>
                         <li><a href="#day3">Day 3: Bollywood Extravaganza</a></li>
+                        <li><a href="#day4">Day 4: Celebrity Meet & Greet</a></li>
                         <li><a href="#registration">Registration</a></li>
                     </ul>
                 </div>
